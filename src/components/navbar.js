@@ -1,7 +1,6 @@
 import React from "react";
 import Navbar from "react-bootstrap/Navbar";
 import { Container } from "react-bootstrap";
-import "bootstrap/dist/css/bootstrap.min.css";
 
 function navBar() {
   return (
@@ -15,7 +14,7 @@ function navBar() {
             height="30"
             className="d-inline-block align-top"
           />{" "}
-          STELLA
+          STELLA!
         </Navbar.Brand>
       </Navbar>
     </Container>
