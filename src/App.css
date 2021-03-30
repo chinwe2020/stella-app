@@ -1,32 +1,56 @@
-.App {
-  text-align: center;
-}
-
-body{
+#root {
   background-image: url("https://images.pexels.com/photos/2706654/pexels-photo-2706654.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1050");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  
 }
 
-.jumbotron{
+
+
+.coords{
+  height: 100vh;
+}
+
+.jumbotron {
   padding: 10px 10px;
   background-color: lightgray;
   margin: 50px;
 }
 
-.header{
-  color: yellow;
+.header {
+  color: rgb(255, 234, 0);
   border: 5px solid darkgray;
   font-size: 60pt;
   font-weight: bold;
 }
 
-.disclaimer{
+.disclaimer {
   font-size: 10pt;
 }
 
-iframe{
+iframe {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
   height: 320px;
+}
+
+#coordinates {
+  color: white;
+}
+
+.footer{
+  background-color: black;
+  position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: .5rem 1rem;
+    color: white;
+    height: 50px;
+    margin-top: 20vh;
 }
