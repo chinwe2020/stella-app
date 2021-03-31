@@ -4,13 +4,6 @@
   background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
-  
-}
-
-
-
-.coords{
-  height: 100vh;
 }
 
 .jumbotron {
@@ -20,6 +13,7 @@
 }
 
 .header {
+  background-color: black;
   color: rgb(255, 234, 0);
   border: 5px solid darkgray;
   font-size: 60pt;
@@ -44,13 +38,14 @@ iframe {
 
 .footer{
   background-color: black;
-  position: relative;
+  
+  position: sticky;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     padding: .5rem 1rem;
     color: white;
-    height: 50px;
-    margin-top: 20vh;
+     height: 50px;
+      margin-top: 20px;
 }
